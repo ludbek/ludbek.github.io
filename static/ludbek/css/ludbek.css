@@ -141,7 +141,7 @@ html, body {
 }
 
 /* CONTENT */
-.content > h1 {
+.content > h1, .entry-content h1 {
     text-align: center;
 }
 

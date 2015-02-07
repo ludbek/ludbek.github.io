@@ -51,8 +51,8 @@ Hello World - ludbek        </title>
     </div><!-- /.entry-content -->
     <hr>
     <div class="comments">
-      <h2>Comments !</h2>
-      <div id="disqus_thread"></div>
+      <h2 class="disqus-comment-count" data-disqus-url="blog/hello-world/" ng-click="show_comment = !show_comment">Comments</h2>
+      <div id="disqus_thread" ng-show="show_comment"></div>
       <script type="text/javascript">
         var disqus_shortname = 'ludbek';
         var disqus_identifier = 'blog/hello-world/';
