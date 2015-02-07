@@ -149,6 +149,11 @@ html, body {
     text-align: left;
 }
 
+.disqus-comment-count {
+    cursor: hand;
+    cursor: pointer;
+}
+
 /* THOUGHT CLOUD */
 ul.thought-cloud {
     list-style: none;
