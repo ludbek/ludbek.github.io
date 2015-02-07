@@ -1,0 +1,201 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.show-cover-btm {
+    position: fixed;
+    left: 5%;
+    bottom: 5%;
+    cursor : hand;
+    cursor : pointer;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.show-cover-btm:hover {
+    opacity: 1;
+}
+
+.remove-cover-btm {
+    position: fixed;
+    left: 5%;
+    bottom: 5%;
+    cursor : hand;
+    cursor : pointer;
+}
+
+.show-cover {
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    cursor : hand;
+    cursor : pointer;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.show-cover:hover {
+    opacity: 1;
+}
+
+.remove-cover {
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    cursor : hand;
+    cursor : pointer;
+}
+
+.cover {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.wrapper {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.transparent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+}
+
+.navigation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.navigation nav ul > li {
+    font-size: 30px;
+}
+
+.tbl {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.tbl-cl {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* ANIMATION */
+/* .zoom.ng-hide-remove { */
+/*     -webkit-animation: zoomIn 0.5s; */
+/*     -moz-animation: zoomIn  0.51s; */
+/*     -o-animation: zoomIn 0.51s; */
+/*     animation: zoomIn 0.51s; */
+/* } */
+
+/* .zoom.ng-hide-add { */
+/*     -webkit-animation: zoomOut 0.5s; */
+/*     -moz-animation: zoomOut 0.5s; */
+/*     -o-animation: zoomOut 0.5s; */
+/*     animation: zoomOut 0.5s; */
+/* } */
+
+/* .slide-down.ng-hide-remove { */
+/*     -webkit-animation: fadeInDown 0.5s; */
+/*     -moz-animation: fadeInDown 0.5s; */
+/*     -o-animation: fadeInDown 0.5s; */
+/*     animation: fadeInDown 0.5s; */
+/* } */
+
+/* .slide-down.ng-hide-add { */
+/*     -webkit-animation: fadeOutUp 0.5s; */
+/*     -moz-animation: fadeOutUp 0.5s; */
+/*     -o-animation: fadeOutUp 0.5s; */
+/*     animation: fadeOutUp 0.5s; */
+/* } */
+
+.archives, .tags, .categories, .articles {
+    text-align: center;
+}
+
+/* CONTENT */
+.content > h1 {
+    text-align: center;
+}
+
+.entry-content {
+    text-align: left;
+}
+
+/* THOUGHT CLOUD */
+ul.thought-cloud {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.thought-cloud li {
+    display: inline-block;
+}
+
+li.tag-1 {
+    font-size: 200%;
+}
+
+li.tag-2 {
+    font-size: 190%;
+}
+
+li.tag-3 {
+    font-size: 180%;
+}
+
+li.tag-4 {
+    font-size: 170%;
+}
+
+li.tag-5 {
+    font-size: 160%;
+}
+
+li.tag-6 {
+    font-size: 150%;
+}
+
+li.tag-7 {
+    font-size: 140%;
+}
+
+li.tag-8 {
+    font-size: 130%;
+}
+
+li.tag-9 {
+    font-size: 120%;
+}
+
+li.tag-10 {
+    font-size: 110%;
+}
