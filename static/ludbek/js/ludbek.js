@@ -14,12 +14,12 @@ angular.module("ludbek", ["ngAnimate"]).
         return {
            addClass : function (el, className, done) {
                if (className === 'ng-hide') {
-                   TweenLite.to(el, 0.5, {scale: 0, ease: Sine.easeOut});
+                   TweenLite.to(el, 0.3, {scale: 0, ease: Sine.easeOut});
                }
            },
            removeClass : function (el, className, done) {
                if (className === 'ng-hide') {
-                   TweenLite.to(el, 0.5, {scale: 1, ease: Sine.easeOut});
+                   TweenLite.to(el, 0.3, {scale: 1, ease: Sine.easeOut});
                }
            }
         };
@@ -28,12 +28,12 @@ angular.module("ludbek", ["ngAnimate"]).
         return {
            addClass : function (el, className, done) {
                if (className === 'ng-hide') {
-                   TweenLite.to(el, 0.5, {top: -height, ease: Sine.easeOut});
+                   TweenLite.to(el, 0.3, {top: -height, ease: Sine.easeOut});
                }
            },
            removeClass : function (el, className, done) {
                if (className === 'ng-hide') {
-                   TweenLite.to(el, 0.5, {top: 0, ease: Sine.easeOut});
+                   TweenLite.to(el, 0.3, {top: 0, ease: Sine.easeOut});
                }
            }
         };
