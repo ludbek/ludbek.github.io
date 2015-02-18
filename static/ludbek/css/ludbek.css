@@ -149,6 +149,10 @@ html, body {
     text-align: left;
 }
 
+.entry-content img {
+    max-width: 100%;
+}
+
 .disqus-comment-count {
     cursor: hand;
     cursor: pointer;
